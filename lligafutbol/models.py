@@ -9,7 +9,7 @@ class Lliga(models.Model):
     data_fi = models.DateField(null=True)
     
     def __str__(self):
-        return f"{self.nom} {self.temporada}"
+        return f"{self.nom}"
 
 class Equip(models.Model):
     nom = models.CharField(max_length=100)
